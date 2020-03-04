@@ -554,11 +554,13 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 3%;
 }
 .backend {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 3%;
 }
 .backend .gus {
   height: 30%;
@@ -567,12 +569,23 @@ button {
 .front-end {
   display: flex;
   justify-content: space-between;
+  margin-top: 3%;
 }
 .front-end .ben {
   height: 60%;
-  width: 50%;
+  margin-left: 10%;
 }
 .kim {
-  height: 60%;
+  height: 30%;
   width: 50%;
+  margin-left: 20%;
+}
+.UI {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.me {
+  height: 40%;
+  width: 25%;
 }
