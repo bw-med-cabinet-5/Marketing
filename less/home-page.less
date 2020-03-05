@@ -20,8 +20,16 @@
       display: flex;
       justify-content: space-between;
       padding-top: 5%;
+      @media @phone{
+        flex-direction: column;
+        align-items: center;
+      }
       
 }
+ul{
+    list-style-type: circle;
+  }
+  
 
 .cover{
     padding: 0 15%;
@@ -32,24 +40,42 @@
     // padding: right 5%;
     background-color:white;
     margin-right: 10%;
-    border: lightslategray solid 4px;
-    padding: 3%
+    border: @wild solid 4px;
+    padding: 3%;
+    @media @phone{
+        padding: 10%;
+        margin-bottom: 2%;
+        margin-left: 8%;
+    }
     
    
 }
 .strain{
     background-color:white;
     margin-right: 10%;
-    border: lightslategray solid 4px;
-    padding: 4%
+    border:@wild solid 4px;
+    padding: 4%;
+    @media @phone{
+       margin-top: 3%;
+       margin-bottom: 3%;
+       width: 82%;
+       margin-left: 7%;
+      }
+
 
     
 }
 .daily{
     background-color:white;
     // margin-right: 10%;
-    border: lightslategray solid 4px;
-    padding: 4%
+    border:@wild solid 4px;
+    padding: 4%;
+    @media @phone{
+        margin-top: 3%;
+        margin-bottom: 3%;
+        width: 82%;
+        margin-right: 4%;
+       }
     
 }
 ul{
@@ -73,52 +99,101 @@ button{
         padding-top: 3%;
     }
 }
-   .thom{
-       height: 30%;
-       width: 20%;
-   }
-   .projectman{
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-       margin-top: 3%;
-   }
-   .backend{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 3%;
-   .gus{
-    height: 30%;
-    width: 20%;
-}
-   }
-   .front-end{
-       display: flex;
-       justify-content: space-between;
-       margin-top: 3%;
-    .ben{
-        height: 60%;
-        // width: 50%;
-        margin-left: 10%;
-       
-    
-}
-   }
-   .kim{
-    height: 30%;
-    width: 50%;
-    margin-left: 20%;
-   }
- 
-   .UI{
-       display: flex;
-       flex-direction: column;
-       align-items: center;
-    
-   }
 
-   .me{
-       height: 40%;
-       width: 25%;
-   }
+.projectman{
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           margin-top: 3%;
+           .thom{
+              
+               border:6px solid @wild;
+           }
+}
+
+.backend{
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           margin-top: 3%;
+           .gus{
+            
+            border:6px solid @wild;
+        }
+}
+.UI{
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           margin-top: 3%;
+           .me{
+           
+            border:6px solid @wild;
+        }
+}
+.front-end{
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           margin-top: 3%;
+           .ben{
+          
+            border:6px solid @wild;
+        }
+}
+
+.first{
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           margin-top: 3%;
+           .kim{
+           
+            border:6px solid @wild;
+        }
+}
+.second{
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           margin-top: 3%;
+           .doina{
+           
+            border:6px solid @wild;
+        }
+}
+.third{
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           margin-top: 3%;
+           .gagan{
+           
+            border:6px solid @wild;
+        }
+}
+.fourth{
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           margin-top: 3%;
+           .mehdi{
+         
+            border:6px solid @wild;
+        }
+}
+.fifth{
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           margin-top: 3%;
+           .ivana{
+           
+            border:6px solid @wild;
+        }
+           
+}
+
+.big-icon{
+   font-size: 32px;
+}
