@@ -106,7 +106,7 @@ button{
            align-items: center;
            margin-top: 3%;
            .thom{
-              
+            height: 200px;
                border:6px solid @wild;
            }
 }
@@ -114,11 +114,17 @@ button{
 .backend{
            display: flex;
            flex-direction: column;
-           align-items: center;
+           align-items: baseline;
            margin-top: 3%;
+           @media @phone{
+               margin-left: 10%;
+           }
            .gus{
-            
+            height: 200px;
+            margin-right: 200px;
             border:6px solid @wild;
+            
+            
         }
 }
 .UI{
@@ -126,8 +132,12 @@ button{
            flex-direction: column;
            align-items: center;
            margin-top: 3%;
+           @media @phone{
+               align-items: baseline;
+               margin-left: 10%;
+           }
            .me{
-           
+            height: 200px;
             border:6px solid @wild;
         }
 }
@@ -136,9 +146,13 @@ button{
            flex-direction: column;
            align-items: center;
            margin-top: 3%;
+           @media @phone{
+            margin-left: 10%;
+        }
            .ben{
-          
+            height: 200px;
             border:6px solid @wild;
+            margin-right: 200px;
         }
 }
 
@@ -147,9 +161,16 @@ button{
            flex-direction: column;
            align-items: center;
            margin-top: 3%;
+           @media @phone{
+            align-items: baseline;
+            margin-left: 10%;
+        }
            .kim{
-           
+            height: 200px;
             border:6px solid @wild;
+            // @media @phone{
+            //     margin-left: 18%;
+            // }
         }
 }
 .second{
@@ -157,8 +178,12 @@ button{
            flex-direction: column;
            align-items: center;
            margin-top: 3%;
+           @media @phone{
+            margin-left: 10%;
+        }
            .doina{
-           
+            height: 200px;
+            margin-right: 200px;
             border:6px solid @wild;
         }
 }
@@ -167,8 +192,12 @@ button{
            flex-direction: column;
            align-items: center;
            margin-top: 3%;
+           @media @phone{
+            align-items: baseline;
+            margin-left: 10%;
+        }
            .gagan{
-           
+            height: 200px;
             border:6px solid @wild;
         }
 }
@@ -177,8 +206,12 @@ button{
            flex-direction: column;
            align-items: center;
            margin-top: 3%;
+           @media @phone{
+            margin-left: 10%;
+        }
            .mehdi{
-         
+            height: 200px;
+            margin-right: 200px;
             border:6px solid @wild;
         }
 }
@@ -187,13 +220,61 @@ button{
            flex-direction: column;
            align-items: center;
            margin-top: 3%;
+           @media @phone{
+            align-items: baseline;
+            margin-left: 10%;
+        }
            .ivana{
+               height: 200px;
            
             border:6px solid @wild;
         }
            
 }
+.one-people{
+    display: flex;
+    margin-left: 28%;
+    @media @pc{
+        margin-left: 19%;
+    }
+    @media @phone{
+        flex-direction: column;
+    }
+}
+.two-people{
+    display: flex;
+    margin-left: 28%;
+    @media @pc{
+        margin-left: 19%;
+    }
+    @media @phone{
+        flex-direction: column;
+    }
+}
+.three-people{
+    display: flex;
+    margin-left: 28%;
+    @media @pc{
+        margin-left: 19%;
+    }
+    @media @phone{
+        flex-direction: column;
+    }
+}
+.four-people{
+    display: flex;
+    margin-left: 28%;
+    @media @pc{
+        margin-left: 19%;
+    }
+    @media @phone{
+        flex-direction: column;
+    }
+}
 
 .big-icon{
    font-size: 32px;
+}
+.gus-title{
+    margin-right: 90px;
 }

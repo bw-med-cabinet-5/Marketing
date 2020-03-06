@@ -413,6 +413,12 @@ body {
   border: 12px solid #61C0BF;
   padding: 2%;
   background-color: lightgrey;
+  width: 100%;
+}
+@media (max-width: 1000px) {
+  body {
+    width: 100%;
+  }
 }
 html {
   font-size: 62.5%;
@@ -591,15 +597,23 @@ button {
   margin-top: 3%;
 }
 .projectman .thom {
+  height: 200px;
   border: 6px solid #61C0BF;
 }
 .backend {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: baseline;
   margin-top: 3%;
 }
+@media (max-width: 500px) {
+  .backend {
+    margin-left: 10%;
+  }
+}
 .backend .gus {
+  height: 200px;
+  margin-right: 200px;
   border: 6px solid #61C0BF;
 }
 .UI {
@@ -608,7 +622,14 @@ button {
   align-items: center;
   margin-top: 3%;
 }
+@media (max-width: 500px) {
+  .UI {
+    align-items: baseline;
+    margin-left: 10%;
+  }
+}
 .UI .me {
+  height: 200px;
   border: 6px solid #61C0BF;
 }
 .front-end {
@@ -617,8 +638,15 @@ button {
   align-items: center;
   margin-top: 3%;
 }
+@media (max-width: 500px) {
+  .front-end {
+    margin-left: 10%;
+  }
+}
 .front-end .ben {
+  height: 200px;
   border: 6px solid #61C0BF;
+  margin-right: 200px;
 }
 .first {
   display: flex;
@@ -626,7 +654,14 @@ button {
   align-items: center;
   margin-top: 3%;
 }
+@media (max-width: 500px) {
+  .first {
+    align-items: baseline;
+    margin-left: 10%;
+  }
+}
 .first .kim {
+  height: 200px;
   border: 6px solid #61C0BF;
 }
 .second {
@@ -635,7 +670,14 @@ button {
   align-items: center;
   margin-top: 3%;
 }
+@media (max-width: 500px) {
+  .second {
+    margin-left: 10%;
+  }
+}
 .second .doina {
+  height: 200px;
+  margin-right: 200px;
   border: 6px solid #61C0BF;
 }
 .third {
@@ -644,7 +686,14 @@ button {
   align-items: center;
   margin-top: 3%;
 }
+@media (max-width: 500px) {
+  .third {
+    align-items: baseline;
+    margin-left: 10%;
+  }
+}
 .third .gagan {
+  height: 200px;
   border: 6px solid #61C0BF;
 }
 .fourth {
@@ -653,7 +702,14 @@ button {
   align-items: center;
   margin-top: 3%;
 }
+@media (max-width: 500px) {
+  .fourth {
+    margin-left: 10%;
+  }
+}
 .fourth .mehdi {
+  height: 200px;
+  margin-right: 200px;
   border: 6px solid #61C0BF;
 }
 .fifth {
@@ -662,9 +718,75 @@ button {
   align-items: center;
   margin-top: 3%;
 }
+@media (max-width: 500px) {
+  .fifth {
+    align-items: baseline;
+    margin-left: 10%;
+  }
+}
 .fifth .ivana {
+  height: 200px;
   border: 6px solid #61C0BF;
+}
+.one-people {
+  display: flex;
+  margin-left: 28%;
+}
+@media (max-width: 1000px) {
+  .one-people {
+    margin-left: 19%;
+  }
+}
+@media (max-width: 500px) {
+  .one-people {
+    flex-direction: column;
+  }
+}
+.two-people {
+  display: flex;
+  margin-left: 28%;
+}
+@media (max-width: 1000px) {
+  .two-people {
+    margin-left: 19%;
+  }
+}
+@media (max-width: 500px) {
+  .two-people {
+    flex-direction: column;
+  }
+}
+.three-people {
+  display: flex;
+  margin-left: 28%;
+}
+@media (max-width: 1000px) {
+  .three-people {
+    margin-left: 19%;
+  }
+}
+@media (max-width: 500px) {
+  .three-people {
+    flex-direction: column;
+  }
+}
+.four-people {
+  display: flex;
+  margin-left: 28%;
+}
+@media (max-width: 1000px) {
+  .four-people {
+    margin-left: 19%;
+  }
+}
+@media (max-width: 500px) {
+  .four-people {
+    flex-direction: column;
+  }
 }
 .big-icon {
   font-size: 32px;
+}
+.gus-title {
+  margin-right: 90px;
 }
